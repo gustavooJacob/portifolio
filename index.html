@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio | Gustavo Jacob</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-container">
+            <div class="logo">PortfólioDev</div>
+            <button class="mobile-menu-toggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="nav-menu">
+                <a href="#sobre" class="nav-link">Sobre</a>
+                <a href="#habilidades" class="nav-link">Habilidades</a>
+                <a href="#projetos" class="nav-link">Projetos</a>
+                <a href="#formacao" class="nav-link">Formação</a>
+                <a href="#contato" class="nav-link">Contato</a>
+            </nav>
+            <div class="header-actions">
+                <button class="theme-toggle" aria-label="Alternar tema">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <a href="#contato" class="btn btn-primary">Contato</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <nav class="mobile-nav">
+            <a href="#sobre" class="mobile-nav-link">Sobre</a>
+            <a href="#habilidades" class="mobile-nav-link">Habilidades</a>
+            <a href="#projetos" class="mobile-nav-link">Projetos</a>
+            <a href="#formacao" class="mobile-nav-link">Formação</a>
+            <a href="#contato" class="mobile-nav-link">Contato</a>
+        </nav>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="container">
+            <div class="avatar">
+                <span class="emoji">🧑‍💻</span>
+            </div>
+            <h1 class="hero-title">Oi! Eu sou o Gustavo Jacob</h1>
+            <p class="hero-subtitle">Dev iniciante, mas com muita vontade de fazer acontecer!</p>
+            <p class="hero-description">Criando experiências digitais com foco em design minimalista e funcionalidade.</p>
+            <div class="btn-group">
+                <a href="#projetos" class="btn btn-primary">Ver Projetos</a>
+                <a href="#contato" class="btn btn-outline">Contato</a>
+            </div>
+            <div class="social-links">
+                <a href="https://github.com/gustavooJacob" class="social-link" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/gustavojacob81/" class="social-link" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="mailto:gustavojacob81@gmail.com" class="social-link" aria-label="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Section -->
+    <section id="sobre" class="section section-light">
+        <div class="container">
+            <h2 class="section-title">Sobre Mim</h2>
+            <div class="about-grid">
+                <div class="about-image">
+                    <div class="image-container">
+                        <img src="https://i.imgur.com/uXUU687.jpeg" alt="Foto de perfil">
+                    </div>
+                </div>
+                <div class="about-content">
+                    <p class="about-text">
+                        Olá! Eu sou o Gustavo Jacob
+                        Desenvolvedor web em início de carreira, apaixonado por criar soluções digitais funcionais, atraentes e com foco na experiência do usuário.
+                        
+                        Atualmente, curso Análise e Desenvolvimento de Sistemas, onde venho aprofundando meus conhecimentos técnicos e teóricos na área de tecnologia.
+                    </p>
+                    <p class="about-text">
+                        Meu foco atual está no desenvolvimento front-end com HTML, CSS e JavaScript, além de back-end com PHP. Estou constantemente aprendendo e praticando para aperfeiçoar minhas habilidades.
+                    </p>
+                    <p class="about-text">
+                        Tenho como objetivo me tornar um desenvolvedor full stack, expandindo meus conhecimentos para Node.js e TypeScript, e assim atuar com mais autonomia em todas as camadas de uma aplicação.
+                    </p>
+                    <div class="info-list">
+                        <div class="info-item">
+                            <span class="info-label">Nome:</span>
+                            <span class="info-value">Gustavo Jacob</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Email:</span>
+                            <span class="info-value">gustavojacob81@gmail.com</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Localização:</span>
+                            <span class="info-value">Tocantins, Brasil</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Disponibilidade:</span>
+                            <span class="info-value">Disponível para contratação</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Habilidades Section -->
+    <section id="habilidades" class="section section-dark">
+        <div class="container">
+            <h2 class="section-title">Minhas Habilidades</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <i class="fas fa-code skill-icon"></i>
+                        <h3>Front-end</h3>
+                    </div>
+                    <div class="skill-content">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">HTML5</span>
+                                <span class="skill-percentage">60%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="60%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">CSS3</span>
+                                <span class="skill-percentage">60%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="60%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">JavaScript</span>
+                                <span class="skill-percentage">70%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="70%"></div>
+                            </div>
+                        </div>
+                        <!--<div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Responsive Design</span>
+                                <span class="skill-percentage">75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="75%"></div>
+                            </div>
+                        </div>-->
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <i class="fas fa-server skill-icon"></i>
+                        <h3>Back-end</h3>
+                    </div>
+                    <div class="skill-content">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">PHP</span>
+                                <span class="skill-percentage">50%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="50%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">MySQL</span>
+                                <span class="skill-percentage">40%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="40%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Python</span>
+                                <span class="skill-percentage">50%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="50%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <i class="fas fa-tools skill-icon"></i>
+                        <h3>Ferramentas</h3>
+                    </div>
+                    <div class="skill-content">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Git & GitHub</span>
+                                <span class="skill-percentage">70%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="70%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">VS Code</span>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80%"></div>
+                            </div>
+                        </div>
+                        <!--<div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Figma</span>
+                                <span class="skill-percentage">60%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="60%"></div>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="future-skills">
+                <h3>Aprendendo no Futuro</h3>
+                <div class="skill-tags">
+                    <span>Node.js</span>
+                    <span>TypeScript</span>
+                    <span>React</span>
+                    <span>MongoDB</span>
+                    <span>AWS</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projetos Section -->
+    <section id="projetos" class="section section-light">
+        <div class="container">
+            <h2 class="section-title">Meus Projetos</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/600x400" alt="Projeto 1">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Site Responsivo</h3>
+                        <p class="project-description">
+                            Site responsivo desenvolvido com HTML, CSS e JavaScript para uma empresa fictícia.
+                        </p>
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-outline btn-sm">
+                                <i class="fab fa-github"></i> Código
+                            </a>
+                            <a href="#" class="btn btn-primary btn-sm">
+                                <i class="fas fa-external-link-alt"></i> Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/600x400" alt="Projeto 2">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Sistema de Cadastro</h3>
+                        <p class="project-description">
+                            Sistema de cadastro e login com PHP e MySQL, incluindo validação de formulários.
+                        </p>
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>PHP</span>
+                            <span>MySQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-outline btn-sm">
+                                <i class="fab fa-github"></i> Código
+                            </a>
+                            <a href="#" class="btn btn-primary btn-sm">
+                                <i class="fas fa-external-link-alt"></i> Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://i.imgur.com/yeqZaCu.png" alt="Projeto 3">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Lista de Tarefas</h3>
+                        <p class="project-description">
+                            Aplicativo de lista de tarefas com JavaScript, permitindo adicionar, editar e excluir tarefas.
+                        </p>
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/gustavooJacob/tarefas/tree/master" class="btn btn-outline btn-sm">
+                                <i class="fab fa-github"></i> Código
+                            </a>
+                            <a href="https://gustavoojacob.github.io/tarefas/" class="btn btn-primary btn-sm">
+                                <i class="fas fa-external-link-alt"></i> Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formação Section -->
+    <section id="formacao" class="section section-dark">
+        <div class="container">
+            <h2 class="section-title">Formação Acadêmica</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Análise e Desenvolvimento de Sistemas</h3>
+                        <p class="timeline-place">Faculdade Anhanguera</p>
+                        <p class="timeline-date">Em andamento</p>
+                        <p>Cursando bacharelado em Análise e Desenvolvimento de Sistemas, com foco em desenvolvimento web e sistemas de informação.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Cursos de Desenvolvimento Web</h3>
+                        <p class="timeline-place">Alura</p>
+                        <p class="timeline-date">2021 - 2022</p>
+                        <p>Cursos de desenvolvimento web, abrangendo HTML, CSS e JavaScript</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Ensino Médio</h3>
+                        <p class="timeline-place">Colégio Estadual Elesbão Lima</p>
+                        <p class="timeline-date">2016</p>
+                        <p>Formação completa no ensino médio.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato Section -->
+    <section id="contato" class="section section-light">
+        <div class="container">
+            <h2 class="section-title">Entre em Contato</h2>
+            <div class="contact-container">
+                <div class="contact-form-container">
+                    <form id="contact-form" class="contact-form" action="https://formsubmit.co/gustavojacob81@gmail.com" method="POST">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="nome" class="form-label" nome="">Nome</label>
+                                <input type="text" id="nome" name="nome" class="form-input" required nome="nome">
+                                <span class="error-message" id="nome-error"></span>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" id="email" name="email" class="form-input" required nome="email">
+                                <span class="error-message" id="email-error"></span>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="assunto" class="form-label">Assunto</label>
+                            <input type="text" id="assunto" name="assunto" class="form-input" required nome="assunto">
+                            <span class="error-message" id="assunto-error"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="mensagem" class="form-label">Mensagem</label>
+                            <textarea id="mensagem" name="mensagem" rows="5" class="form-textarea" required nome="mensagem"></textarea>
+                            <span class="error-message" id="mensagem-error"></span>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-full">Enviar Mensagem</button>
+                        <div id="form-success" class="success-message"></div>
+                    </form>
+                </div>
+                
+                <div class="contact-info-container">
+                    <div class="contact-info">
+                        <h3>Informações de Contato</h3>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <span class="contact-label">Email</span>
+                                <span class="contact-value">gustavojacob81@gmail.com</span>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fab fa-github"></i>
+                            </div>
+                            <div class="contact-details">
+                                <span class="contact-label">GitHub</span>
+                                <span class="contact-value">github.com/gustavooJacob</span>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fab fa-linkedin-in"></i>
+                            </div>
+                            <div class="contact-details">
+                                <span class="contact-label">LinkedIn</span>
+                                <span class="contact-value">linkedin.com/in/gustavojacob81</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="availability">
+                        <h3>Disponível para:</h3>
+                        <ul class="availability-list">
+                            <li class="availability-item">
+                                <span class="availability-dot"></span>
+                                <span>Projetos freelance</span>
+                            </li>
+                            <li class="availability-item">
+                                <span class="availability-dot"></span>
+                                <span>Estágio em desenvolvimento</span>
+                            </li>
+                            <li class="availability-item">
+                                <span class="availability-dot"></span>
+                                <span>Emprego em tempo integral</span>
+                            </li>
+                            <li class="availability-item">
+                                <span class="availability-dot"></span>
+                                <span>Colaboração em projetos open source</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p class="copyright">© <span id="current-year"></span> Gustavo Jacob. Todos os direitos reservados.</p>
+                <div class="footer-social">
+                    <a href="https://github.com/gustavooJacob" class="social-link" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/gustavojacob81/" class="social-link" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="mailto:gustavojacob81@gmail.com" class="social-link" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <button id="back-to-top" aria-label="Voltar ao topo">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
