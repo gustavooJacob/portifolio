@@ -944,3 +944,9 @@ img {
         grid-template-columns: 1fr;
     }
 }
+
+@media (max-width: 456px) {
+    .avatar {
+        margin-top: 70px;
+    }
+}
