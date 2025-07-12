@@ -855,7 +855,7 @@ img {
 }
 
 /* Responsividade */
-@media (min-width: 768px) {
+@media (min-width: 813px) {
     .nav-menu {
         display: flex;
     }
@@ -945,8 +945,12 @@ img {
     }
 }
 
-@media (max-width: 456px) {
+@media (max-width: 466px) {
     .avatar {
         margin-top: 100px;
+    }
+
+    #btncontato {
+        display: none;
     }
 }
