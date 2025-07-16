@@ -647,6 +647,14 @@ img {
     margin-top: 16px;
 }
 
+.fa-solid,.fas {
+    margin-right: 3px;
+}
+
+.fa-brands,.fab {
+    margin-right: 3px;
+}
+
 /* Contato Section */
 .contact-container {
     display: flex;
