@@ -97,16 +97,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    // Animar barras de habilidades
-    function animateSkillBars() {
-        const skillBars = document.querySelectorAll('.skill-progress');
-        
-        skillBars.forEach(bar => {
-            const width = bar.getAttribute('data-width');
-            bar.style.width = width;
-        });
-    }
-
     // Verificar se o elemento está visível na viewport
     function isElementInViewport(el) {
         const rect = el.getBoundingClientRect();
@@ -197,7 +187,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
     
-
     // Email validation helper
     function isValidEmail(email) {
         const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
