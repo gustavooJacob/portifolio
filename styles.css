@@ -517,7 +517,7 @@ img {
 
 .skill-card {
     background: var(--color-card-hability);
-    padding: 32px;
+    padding: 24px;
     border-radius: var(--border-radius);
     box-shadow: 0 1px 3px var(--shadow-sm);
     transition: var(--transition);
